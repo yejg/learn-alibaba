@@ -6,7 +6,7 @@ spring:
   application:
     name: pay-service
   datasource:
-    url: jdbc:mysql://localhost:3306/pay?useSSL=false
+    url: jdbc:mysql://localhost:13306/seata_pay?useSSL=false
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver

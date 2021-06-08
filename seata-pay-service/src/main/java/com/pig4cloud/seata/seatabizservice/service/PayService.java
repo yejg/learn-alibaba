@@ -33,6 +33,6 @@ public class PayService {
 
     @Transactional
     public void save() {
-        jdbcTemplate.update("INSERT INTO `pay`( `username`) VALUES ('123');");
+        jdbcTemplate.update("INSERT INTO t_pay(name) VALUES ('pay123');");
     }
 }

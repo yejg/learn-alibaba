@@ -35,8 +35,8 @@ public class BizService {
     @GlobalTransactional
     @Transactional
     public void biz() {
-        restTemplate.getForObject("http://localhost:8020/order", String.class);
         restTemplate.getForObject("http://localhost:8030/pay", String.class);
+        restTemplate.getForObject("http://localhost:8020/order", String.class);
 
         int i = 1 / 0;
     }

@@ -33,6 +33,6 @@ public class OrderService {
 
     @Transactional
     public void save() {
-        jdbcTemplate.update("INSERT INTO `order`( `username`) VALUES ('123');");
+        jdbcTemplate.update("INSERT INTO t_order(name) VALUES ('order123');");
     }
 }
